@@ -1,6 +1,6 @@
 <h1 class='index'>Listing recipes</h1>
 
-<table>
+<table id='main_page_table'>
   <tr>
     <th class='index'>Name</th>
     <th class='index'>Author</th>
@@ -17,9 +17,9 @@
     <td><%= recipe.author %></td>
     <td><%= recipe.ingredients %></td>
     <td><%= recipe.preparation %></td>
-    <td><%= link_to 'Show', recipe %></td>
-    <td><%= link_to 'Edit', edit_recipe_path(recipe) %></td>
-    <td><%= link_to 'Destroy', recipe, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= link_to 'Show me', recipe %></td>
+    <td><%= link_to 'Modify', edit_recipe_path(recipe) %></td>
+    <td><%= link_to 'Delete', recipe, confirm: 'Are you sure?', method: :delete %></td>
   </tr>
 <% end %>
 </table>

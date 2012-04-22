@@ -14,10 +14,15 @@
 
 h1.index {
 	color: green;
+	font-size: 16px;
 }
 
 th.index {
 	color: blue;
 	font: Helvetica;
 	font-size: 12px;
+}
+
+table {
+	border: 2px solid #CC9999;
 }
