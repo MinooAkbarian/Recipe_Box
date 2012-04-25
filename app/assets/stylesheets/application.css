@@ -12,6 +12,10 @@
  *= require_tree .
 */
 
+body {
+  background-color: #BBB;
+}
+
 h1.index {
 
 	color: red;
@@ -27,3 +31,4 @@ th.index {
 table {
 	border: 2px solid #CC9999;
 }
+
